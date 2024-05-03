@@ -1,3 +1,5 @@
+[godot-proposals/issues/9663](https://github.com/godotengine/godot-proposals/issues/9663)
+
 ## Reproduction steps
 
 1. Open project
