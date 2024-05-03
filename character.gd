@@ -26,5 +26,5 @@ func _move_and_collide(count):
 	move_and_collide(velocity)
 
 func _move_and_slide(count):
-	velocity.x = (SPEED * count) / get_physics_process_delta_time()
+	velocity.x = (SPEED * count) / get_physics_process_delta_time() # forces floating point math
 	move_and_slide()
